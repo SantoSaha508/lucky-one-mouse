@@ -1,0 +1,72 @@
+[
+    {
+      "_id": "623ee704137d16925e34ad8f",
+      "picture": "./image/images (1).jpeg",
+      "price": 40,
+      "eyeColor": "green",
+      "name": "Mia Mcleod"
+    },
+    {
+      "_id": "623ee704a0692f674d07ffe4",
+      "picture": "./image/images (2).jpeg",
+      "price": 38,
+      "eyeColor": "blue",
+      "name": "Anderson Hoover"
+    },
+    {
+      "_id": "623ee704cd80d3e719cf9f75",
+      "picture": "./image/images (3).jpeg",
+      "price": 32,
+      "eyeColor": "blue",
+      "name": "Meagan Hester"
+    },
+    {
+      "_id": "623ee70404e3a2c46b104591",
+      "picture": "./image/images (4).jpeg",
+      "price": 37,
+      "eyeColor": "blue",
+      "name": "Yolanda Sellers"
+    },
+    {
+      "_id": "623ee704e75289ae94585c58",
+      "picture": "./image/images (5).jpeg",
+      "price": 40,
+      "eyeColor": "blue",
+      "name": "Fran Dennis"
+    },
+    {
+      "_id": "623ee7046ba00b9467b7dc6b",
+      "picture": "./image/images (6).jpeg",
+      "price": 26,
+      "eyeColor": "green",
+      "name": "Emilia Solomon"
+    },
+    {
+      "_id": "623ee70458156301e7af4cf9",
+      "picture": "./image/images (7).jpeg",
+      "price": 29,
+      "eyeColor": "brown",
+      "name": "Whitley Fox"
+    },
+    {
+      "_id": "623ee704d2cb3ba5ada16873",
+      "picture": "./image/images (8).jpeg",
+      "price": 32,
+      "eyeColor": "blue",
+      "name": "Mcintyre Hopper"
+    },
+    {
+      "_id": "623ee704d83a7514e0a5608f",
+      "picture": "./image/images (9).jpeg",
+      "price": 32,
+      "eyeColor": "green",
+      "name": "Spears William"
+    },
+    {
+      "_id": "623ee70494ed12f4f1d8b7ab",
+      "picture": "./image/download.jpeg",
+      "price": 36,
+      "eyeColor": "brown",
+      "name": "Lillian Donovan"
+    }
+  ]
