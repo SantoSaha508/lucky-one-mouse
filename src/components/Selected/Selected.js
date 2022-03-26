@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import './Selected.css'
 
 const Selected = (props) => {
     const {name} = props.itemName;

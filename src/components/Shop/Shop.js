@@ -38,7 +38,13 @@ const Shop = () => {
                     cart.map(itemName => <Selected itemName={itemName}
                     ></Selected>)
                 }
-                <button>Choose For Me</button>
+                <button>
+                    
+                    <p>Choose For Me</p>
+                </button>
+                <button>
+                    <p>Choose Again</p>
+                </button>
             </div>
         </div>
     );
