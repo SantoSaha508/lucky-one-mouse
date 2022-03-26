@@ -1,0 +1,21 @@
+.mainHead{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+ margin-left: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: beige;
+    margin-right: 20px;
+}
+.menu a:hover{
+    color: orange;
+}
