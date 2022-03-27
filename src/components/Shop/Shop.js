@@ -13,6 +13,13 @@ const Shop = () => {
         setRandom(randomitem);
     }
 
+    function clear(){
+        // handle this problem at nigth.
+        const clearCart = [];
+        setCart(clearCart);
+        setRandom(clearCart);
+    }
+
     useEffect( () => {
         fetch('data.json')
         .then(res => res.json())
@@ -25,9 +32,6 @@ const Shop = () => {
         setCart(newCart);
 
     }
-
-
-    
 
     return (
         <div className='shop-container'>
@@ -42,18 +46,31 @@ const Shop = () => {
             </div>
 
             <div className='cart-container'>
-                <h2>Order details:</h2>
-                <p>Selected Item: {cart.length}</p>
-                {
-                    cart.map(itemName => <Selected itemName={itemName}
-                    ></Selected>)
-                }
-                <p>{random.name}</p>
-                <button onClick={chooseForOne}>
-                    <p>Chose one</p>
-                </button>
-        
+                <div className='cart-heading'>
+                    <h2>Order details:</h2>
+                    <hr />
+                    <p>Selected Item: {cart.length}</p>
                 
+                    {
+                        cart.map(itemName => <Selected 
+                        itemName={itemName}
+                        key={itemName._id}
+                        ></Selected>)
+                    }
+                    {/* Choose btn */}
+                    <p className='chooseOne'>{random.name}
+                    </p>
+                    
+                    <button onClick={chooseForOne} className='chooseBtn'>
+                        <p>Choose</p>
+                    </button>
+
+                    {/* Clear btn */}
+                    <button onClick={clear} className='chooseBtn'>
+                        <p>Clear</p>
+                    </button>
+
+                </div> 
             </div>
         </div>
     );

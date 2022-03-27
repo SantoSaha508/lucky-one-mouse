@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Mouse BD.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site link [Netlify Link](https://gregarious-dasik-bd1e2f.netlify.app/).
 
 ## Available Scripts
 

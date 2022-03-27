@@ -1,13 +1,44 @@
 .shop-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    
+    grid-template-columns: 4fr 1fr; 
+    background-color: rgb(248, 252, 252); 
 }
+
 .product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
-    
+    margin: 20px;
+}
+
+.cart-container{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.cart-heading{
+    position: sticky;
+    top: 0;
+}
+
+.chooseBtn{
+    background-color: rgb(248, 232, 179);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 90px;
+    margin-right: 5px;
+}
+.chooseBtn:hover{
+    background-color: rgb(252, 249, 248);
+}
+.chooseOne{
+    background-color: gold;
+    margin: 20px;
+    padding: 2px;
+    color: black;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 500px) {

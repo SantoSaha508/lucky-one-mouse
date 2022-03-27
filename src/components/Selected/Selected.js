@@ -4,7 +4,7 @@ const Selected = (props) => {
     const {name} = props.itemName;
 
         return (
-            <div>
+            <div className='select-container'>
                 <p>{name}</p>
             </div>
         );

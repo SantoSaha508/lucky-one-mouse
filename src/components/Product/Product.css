@@ -5,6 +5,8 @@
     border-radius: 8px;
     position: relative;
     margin: 20px;
+    background-color: black;
+    color: antiquewhite;
 }
 
 .product img{
